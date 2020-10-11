@@ -9,79 +9,52 @@
   >
     <template v-slot:after-heading>
       <div class="title text-no-wrap font-weight-bold primary--text">
-        Professional Skills
+        PROFESSIONAL SKILLS
       </div>
     </template>
-    <div>
-      <v-chip label class="mb-2" dark color="blue">
-        HTML, CSS & Javascript
-      </v-chip>
-      <v-progress-linear
-        color="blue"
-        height="10"
-        value="90"
-        striped
-      ></v-progress-linear>
-      <br />
-      <v-chip label class="mb-2" dark color="light-green darken-4">
-        VUE JS
-      </v-chip>
-      <v-progress-linear
-        color="light-green darken-4"
-        height="10"
-        value="100"
-        striped
-      ></v-progress-linear>
-      <br />
-      <v-chip label class="mb-2" dark color="lime darken-2">
-        Server Side Render (NUXT JS)
-      </v-chip>
-      <v-progress-linear
-        color="lime darken-2"
-        height="10"
-        value="80"
-        striped
-      ></v-progress-linear>
-      <br />
-      <v-chip label class="mb-2" dark color="deep-orange">
-        Git, CI & Deploy
-      </v-chip>
-      <v-progress-linear
-        color="deep-orange"
-        height="10"
-        value="80"
-        striped
-      ></v-progress-linear>
-      <br />
-      <v-chip label class="mb-2" dark color="red"> Firebase </v-chip>
-      <v-progress-linear
-        color="red"
-        height="10"
-        value="90"
-        striped
-      ></v-progress-linear>
-      <br />
-      <v-chip label class="mb-2" dark color="grey darken-2"> Node </v-chip>
-      <v-progress-linear
-        color="grey darken-2"
-        height="10"
-        value="70"
-        striped
-      ></v-progress-linear>
-      <br />
-      <v-chip label class="mb-2" dark color="purple"> SCRUM </v-chip>
-      <v-progress-linear
-        color="purple"
-        height="10"
-        value="90"
-        striped
-      ></v-progress-linear
-      ><br /></div
+    <div class="my-12">
+      <template v-for="(item, index) in skills">
+        <v-chip :key="index" label class="my-4" dark :color="item.color">
+          {{ item.title }}
+        </v-chip>
+        <v-progress-linear
+          :key="index"
+          :color="item.color"
+          height="10"
+          :value="item.value"
+          striped
+        ></v-progress-linear>
+        <br :key="index" />
+      </template></div
   ></material-card>
 </template>
 
 <script>
-export default {}
+export default {
+  data: () => ({
+    skills: [
+      { value: '90', color: 'blue', title: 'HTML, CSS & Javascript' },
+
+      {
+        value: '100',
+        color: 'light-green darken-4',
+        title: 'VUE, VUEX & VUE-ROUTER',
+      },
+
+      {
+        value: '80',
+        color: 'lime darken-2',
+        title: 'Server Side Render (NUXT JS)',
+      },
+
+      { value: '80', color: 'deep-orange', title: 'Git, CI, Deploy & G-Cloud' },
+
+      { value: '90', color: 'deep-orange', title: 'Firebase' },
+
+      { value: '80', color: 'purple', title: 'Scrum' },
+    ],
+  }),
+}
 </script>
 
 <style></style>

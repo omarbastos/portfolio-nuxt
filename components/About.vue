@@ -13,7 +13,7 @@
             ></v-img
           ></v-col>
           <v-col cols="12" md="6">
-            <v-chip class="mb-4" label color="primary">
+            <v-chip large class="mb-4" label color="primary">
               Hello! &#x1F44B;</v-chip
             >
             <h2 class="font-weight-light">

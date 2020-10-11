@@ -25,14 +25,21 @@ export default {
       {
         blurb:
           'Really simple requirements gather, plenty of work examples to checkout before I committed. Would definitely hire again.',
+        avatar: require('~/static/img/germany.svg'),
+        author: 'Gustavo',
+        handle: 'GM at Metax Technologie',
+      },
+      {
+        blurb:
+          'Really simple requirements gather, plenty of work examples to checkout before I committed. Would definitely hire again.',
         avatar: require('~/static/img/united-states.svg'),
         author: 'Xavian',
-        handle: 'CarWallet',
+        handle: 'Co-Founder of CarWallet',
       },
       {
         blurb:
           'Omar is the best frontend developer I have met on Fiverr. Very honest, has good work ethics, great communication. One of the best on Fiverr.',
-        handle: 'Paperdaz',
+        handle: 'CEO of Paperdaz',
         avatar: require('~/static/img/united-states.svg'),
         author: 'Mai',
       },
@@ -40,13 +47,13 @@ export default {
         blurb: 'Great quality and fast delivery. Will order again',
         avatar: require('~/static/img/denmark.svg'),
         author: 'Mark Topper',
-        handle: '@marktopper',
+        handle: 'CEO of @ulties.',
       },
       {
         blurb:
           "You are an amazing developer, the material design view is very beautiful. I'm surprised how quickly you work. Congratulations.",
         avatar: require('~/static/img/mexico.svg'),
-        handle: 'Codecweb',
+        handle: 'CEO of Codecweb',
         author: 'Eduardo',
       },
       {
@@ -54,7 +61,7 @@ export default {
           'Really simple requirements gather, plenty of work examples to checkout before I committed. Would definitely hire again.',
         avatar: require('~/static/img/united-states.svg'),
         author: 'Remy',
-        handle: 'Watermate',
+        handle: 'CEO of Watermate',
       },
     ],
   }),

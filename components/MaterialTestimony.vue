@@ -13,7 +13,12 @@
 
     <div class="body-2 text-uppercase ml-n6" v-text="handle" />
 
-    <v-avatar class="elevation-12" color="white" size="100">
+    <v-avatar
+      class="elevation-12"
+      style="border: 1px solid white"
+      color="white"
+      size="100"
+    >
       <v-img contain :alt="`${author} Testimonial`" :src="avatar" />
     </v-avatar>
 

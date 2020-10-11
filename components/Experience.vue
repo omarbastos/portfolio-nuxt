@@ -83,7 +83,6 @@ export default {
         icon: 'mdi-school',
         text:
           'Graduated as the first of my class, in Electronic Engineering at the National Experimental University of Tachira (UNET)',
-        subtext: '2014 - August 2019',
       },
       {
         chip: 'Fix4u Solutions',
@@ -110,12 +109,12 @@ export default {
         subtext: 'Jun 2020 - Sept 2020',
       },
       {
-        chip: 'Metax Technologie GmbH',
+        chip: 'Metax Technologie',
         color: 'error',
         icon: 'mdi-dev-to',
         text:
           'At Metax Technologie, I am responsible for developing a PWA (Progressive Web Application) for maintenance and reliability in the industry. Together with the work team, I carry out the development of the Backend and Frontend, providing solutions to the pre-established requirements.',
-        subtext: 'Jun 2020 - Sept 2020',
+        subtext: 'Jun 2020 - Present',
       },
     ],
   }),
