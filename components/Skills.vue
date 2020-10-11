@@ -75,7 +75,8 @@
         height="10"
         value="90"
         striped
-      ></v-progress-linear></div
+      ></v-progress-linear
+      ><br /></div
   ></material-card>
 </template>
 

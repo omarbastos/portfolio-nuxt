@@ -1,13 +1,19 @@
 <template>
-  <v-carousel id="references">
+  <v-carousel
+    id="references"
+    hide-delimiter-background
+    hide-delimiters
+    show-arrows-on-hover
+  >
     <v-carousel-item v-for="(item, index) in testimonies" :key="index">
-      <material-testimony
-        class="primary"
-        :blurb="item.blurb"
-        :author="item.author"
-        :handle="item.handle"
-        :avatar="item.avatar"
-      />
+      <v-container>
+        <material-testimony
+          class="primary"
+          :blurb="item.blurb"
+          :author="item.author"
+          :handle="item.handle"
+          :avatar="item.avatar"
+      /></v-container>
     </v-carousel-item>
   </v-carousel>
 </template>

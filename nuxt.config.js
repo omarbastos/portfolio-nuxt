@@ -3,12 +3,17 @@ import colors from 'vuetify/es5/util/colors'
 export default {
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
-    titleTemplate: '%s - portfolio-omarbastos',
-    title: 'portfolio-omarbastos',
+    titleTemplate: '%s - omarbastos.dev',
+    title: 'Omar Jesus Hernandez Bastos',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+      {
+        hid: 'description',
+        name: 'description',
+        content:
+          'Electronic Engineer and Senior Web Developer specialized in front-end development. Experience in all phases of the dev cycle for dynamic web projects',
+      },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
@@ -17,7 +22,7 @@ export default {
   css: [],
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
-  plugins: [],
+  plugins: ['@/plugins/VueScrollProgress.js'],
 
   // Auto import components (https://go.nuxtjs.dev/config-components)
   components: true,
@@ -59,5 +64,7 @@ export default {
   },
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
-  build: {},
+  build: {
+    transpile: ['vue-scroll-progress'],
+  },
 }
