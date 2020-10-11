@@ -1,4 +1,6 @@
-# portfolio-omarbastos
+# OmarBastos.dev - Portfolio made with Nuxtjs
+
+[![Build Status](https://travis-ci.com/omarbastos/portfolio-nuxt.svg?branch=master)](https://travis-ci.com/omarbastos/portfolio-nuxt)
 
 ## Build Setup
 
