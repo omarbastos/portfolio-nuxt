@@ -78,7 +78,6 @@
         </v-list>
       </v-menu>
     </v-app-bar>
-    <VueScrollProgress></VueScrollProgress>
     <v-main>
       <v-container>
         <nuxt />

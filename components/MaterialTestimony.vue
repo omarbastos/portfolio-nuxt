@@ -9,12 +9,12 @@
       v-text="blurb"
     />
 
-    <div class="display-2 font-weight-light mb-2 ml-n6" v-text="author" />
+    <div class="display-2 font-weight-light mb-2" v-text="author" />
 
-    <div class="body-2 text-uppercase ml-n6" v-text="handle" />
+    <div class="body-2 text-uppercase" v-text="handle" />
 
     <v-avatar
-      class="elevation-12"
+      class="elevation-12 ml-3"
       style="border: 1px solid white"
       color="white"
       size="100"

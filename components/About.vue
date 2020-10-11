@@ -31,13 +31,11 @@
                 <tbody>
                   <tr v-for="(item, index) in mainTable" :key="index">
                     <td class="font-weight-bold">{{ item.key }}</td>
-                    <td>{{ item.value }}</td>
+                    <td v-html="item.value"></td>
                   </tr>
                 </tbody>
               </template>
-            </v-simple-table>
-          </v-col></v-row
-        ></v-card-text
+            </v-simple-table> </v-col></v-row></v-card-text
       ><v-card-actions class="primary">
         <v-spacer></v-spacer>
         <v-btn
@@ -82,10 +80,23 @@ export default {
   data: () => ({
     mainTable: [
       { key: 'AGE', value: '27' },
-      { key: 'ADDRESS', value: 'San Cristobal,Tachira, Venezuela' },
-      { key: 'E-MAIL', value: 'omarsro@gmail.com' },
-      { key: 'PHONE', value: '+58 414 723 3668' },
-      { key: 'FREELANCE', value: 'till January, 2018' },
+      {
+        key: 'ADDRESS',
+        value:
+          '<a target="_blank" href="https://www.google.com/maps?q=San+Cristobal,+Tachira,+Venezuela">San Cristobal,Tachira, Venezuela</a>',
+      },
+      {
+        key: 'E-MAIL',
+        value: '<a href="mailto:omarsro@gmail.com">omarsro@gmail.com</a>',
+      },
+      {
+        key: 'PHONE',
+        value: '<a href="tel:+584147233368">+58 414 723 3668</a>',
+      },
+      {
+        key: 'EMPLOYMENT STATUS',
+        value: 'Web Developer at Metax Technologie',
+      },
     ],
   }),
 }

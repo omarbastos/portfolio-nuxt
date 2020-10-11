@@ -12,19 +12,19 @@
         PROFESSIONAL SKILLS
       </div>
     </template>
-    <div class="my-12">
+    <div class="my-8">
       <template v-for="(item, index) in skills">
-        <v-chip :key="index" label class="my-4" dark :color="item.color">
-          {{ item.title }}
-        </v-chip>
-        <v-progress-linear
-          :key="index"
-          :color="item.color"
-          height="10"
-          :value="item.value"
-          striped
-        ></v-progress-linear>
-        <br :key="index" />
+        <div class="my-4" :key="index">
+          <v-chip label class="my-4" dark :color="item.color">
+            {{ item.title }}
+          </v-chip>
+          <v-progress-linear
+            :color="item.color"
+            height="10"
+            :value="item.value"
+            striped
+          ></v-progress-linear>
+        </div>
       </template></div
   ></material-card>
 </template>
@@ -38,7 +38,7 @@ export default {
       {
         value: '100',
         color: 'light-green darken-4',
-        title: 'VUE, VUEX & VUE-ROUTER',
+        title: 'Vue, Vuex & VueRouter',
       },
 
       {
@@ -52,6 +52,10 @@ export default {
       { value: '90', color: 'deep-orange', title: 'Firebase' },
 
       { value: '80', color: 'purple', title: 'Scrum' },
+
+      { value: '70', color: 'pink', title: 'Figma' },
+
+      { value: '60', color: 'blue', title: 'TypeScript' },
     ],
   }),
 }

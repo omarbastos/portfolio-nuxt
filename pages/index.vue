@@ -19,6 +19,7 @@
       to learn and master new technologies.
     </p>
     <skills></skills>
+
     <experience></experience>
     <references></references>
   </v-container>

@@ -1,5 +1,6 @@
 <template>
   <v-carousel
+    height="auto"
     id="references"
     hide-delimiter-background
     hide-delimiters
@@ -24,7 +25,7 @@ export default {
     testimonies: [
       {
         blurb:
-          'Really simple requirements gather, plenty of work examples to checkout before I committed. Would definitely hire again.',
+          "Omar is a person that not only asks what is the task, but that is the problem to give you the solution you need, even when you don't know you need it. He is highly motivated to do quality work, he's detailed oriented and meets his deadlines. I will gladly continue to work with him.",
         avatar: require('~/static/img/germany.svg'),
         author: 'Gustavo',
         handle: 'GM at Metax Technologie',
