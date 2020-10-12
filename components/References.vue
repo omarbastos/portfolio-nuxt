@@ -32,7 +32,7 @@ export default {
       },
       {
         blurb:
-          'Really simple requirements gather, plenty of work examples to checkout before I committed. Would definitely hire again.',
+          'It was excellent working with Omar. He guided us throughout the project process. If you have no experience or knowledge of development, I highly recommend Omar. His way of explaining and teaching is precious. He has excellent emotional intelligence and offers practical and straightforward solutions to complicated problems.',
         avatar: require('~/static/img/united-states.svg'),
         author: 'Xavian',
         handle: 'Co-Founder of CarWallet',
