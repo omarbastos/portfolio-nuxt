@@ -1,0 +1,222 @@
+{
+    "status": {
+        "error": false,
+        "code": 200
+    },
+    "userData": {
+        "answers": "54",
+        "avatar": "https://static.platzi.com/media/avatars/avatars/omarbastos_56a3a32d-5d62-4e5f-8e3d-5cb59a22dd48.jpg",
+        "careers": [
+            {
+                "id": 9,
+                "title": "Desarrollo Web Frontend con Vue.js",
+                "logo": "https://static.platzi.com/media/learningpath/badges/91ccd039-24a9-4dc5-8b0a-e5eb7526e571.jpg",
+                "golden_achievement": "https://static.platzi.com/media/learningpath/golden_badges/43bb8eac-c21e-46da-a0e9-4353a249cb1e.jpg",
+                "diploma_link": "/@omarbastos/ruta/9-vue/diploma/detalle/",
+                "active": true
+            }
+        ],
+        "contributions": [],
+        "courses": [
+            {
+                "id": 1603,
+                "title": "Curso Avanzado de Flutter",
+                "badge": "https://static.platzi.com/media/achievements/badge-avanzado-flutter-fb7e966a-b3e0-472c-a390-bbc0489d7812.png",
+                "url": "/clases/flutter-avanzado/",
+                "career": "Desarrollo de Aplicaciones Android",
+                "diploma_link": "/@omarbastos/curso/1603-flutter-avanzado/diploma/detalle/"
+            },
+            {
+                "id": 1856,
+                "title": "Curso Avanzado de Vue.js",
+                "badge": "https://static.platzi.com/media/achievements/badge-avanzado-vuejs-aefbebf5-a606-4ea1-bc12-5115de2cdf53.png",
+                "url": "/clases/avanzado-vue/",
+                "career": null,
+                "diploma_link": "/@omarbastos/curso/1856-avanzado-vue/diploma/detalle/"
+            },
+            {
+                "id": 1508,
+                "title": "Curso Avanzado de Vue.js y Firebase por Bedu",
+                "badge": "https://static.platzi.com/media/achievements/badges-vue-avanzado-cda6259c-ec3d-477a-ae5f-5455bce23769.png",
+                "url": "/clases/vuejs-avanzado/",
+                "career": "Vue.js",
+                "diploma_link": "/@omarbastos/curso/1508-vuejs-avanzado/diploma/detalle/"
+            },
+            {
+                "id": 1937,
+                "title": "Curso Básico de Python",
+                "badge": "https://static.platzi.com/media/achievements/badge-basico-python-bdcc67b3-031d-4dce-8e78-5699fb243149.png",
+                "url": "/clases/pythonbasico/",
+                "career": null,
+                "diploma_link": "/@omarbastos/curso/1937-pythonbasico/diploma/detalle/"
+            },
+            {
+                "id": 1111,
+                "title": "Curso Básico de Vue.js 2017",
+                "badge": "https://static.platzi.com/media/achievements/badge-vue-js-150121c6-ab71-44ba-b0a3-fec2e69bed39.png",
+                "url": "/clases/vuejs-2017/",
+                "career": null,
+                "diploma_link": "/@omarbastos/curso/1111-vuejs-2017/diploma/detalle/"
+            },
+            {
+                "id": 1789,
+                "title": "Curso de Asincronismo con JavaScript",
+                "badge": "https://static.platzi.com/media/achievements/badge-asincronismo-javascript-3f44d51e-209e-4e47-a228-4142d049525c.png",
+                "url": "/clases/asincronismo-js/",
+                "career": "JavaScript",
+                "diploma_link": "/@omarbastos/curso/1789-asincronismo-js/diploma/detalle/"
+            },
+            {
+                "id": 1476,
+                "title": "Curso de Copywriting para Plataformas Digitales",
+                "badge": "https://static.platzi.com/media/achievements/badges-copywritting-a4f4d99c-cf75-4947-92c9-d49e6fc79741.png",
+                "url": "/clases/copywriting-digital/",
+                "career": "Estrategia y Marketing Digital",
+                "diploma_link": "/@omarbastos/curso/1476-copywriting-digital/diploma/detalle/"
+            },
+            {
+                "id": 1502,
+                "title": "Curso de Dart",
+                "badge": "https://static.platzi.com/media/achievements/badges-dart-5f3f6a7d-c450-44a8-a111-7a1914729e14.png",
+                "url": "/clases/dart/",
+                "career": "Desarrollo de Aplicaciones Android",
+                "diploma_link": "/@omarbastos/curso/1502-dart/diploma/detalle/"
+            },
+            {
+                "id": 1386,
+                "title": "Curso de Flutter",
+                "badge": "https://static.platzi.com/media/achievements/1386-b8a48176-0809-49b9-bde1-8664fe6c3a93.png",
+                "url": "/clases/flutter/",
+                "career": "Desarrollo de Aplicaciones Android",
+                "diploma_link": "/@omarbastos/curso/1386-flutter/diploma/detalle/"
+            },
+            {
+                "id": 1492,
+                "title": "Curso de HTML y CSS",
+                "badge": "https://static.platzi.com/media/achievements/badges-html-css-b0a71550-d5e7-4e27-aca2-f09f1321a517.png",
+                "url": "/clases/html-css/",
+                "career": "Arquitectura Frontend",
+                "diploma_link": "/@omarbastos/curso/1492-html-css/diploma/detalle/"
+            },
+            {
+                "id": 1358,
+                "title": "Curso de Inglés Básico: Fundamentos",
+                "badge": "https://static.platzi.com/media/achievements/badge-basico-ingles-e073f711-763d-4129-badc-5e4baa78b225.png",
+                "url": "/clases/ingles-basico/",
+                "career": "Crecimiento Profesional",
+                "diploma_link": "/@omarbastos/curso/1358-ingles-basico/diploma/detalle/"
+            },
+            {
+                "id": 1328,
+                "title": "Curso de Introducción al Marketing Digital",
+                "badge": "https://static.platzi.com/media/achievements/1328-bdfaf9ae-05e1-44c3-9c14-fccbb491a7d3.png",
+                "url": "/clases/introduccion-marketing/",
+                "career": "Creación de Startups",
+                "diploma_link": "/@omarbastos/curso/1328-introduccion-marketing/diploma/detalle/"
+            },
+            {
+                "id": 1220,
+                "title": "Curso de Marca Personal",
+                "badge": "https://static.platzi.com/media/achievements/1220-da04fca8-8561-40ce-a678-3585bde8d899.png",
+                "url": "/clases/marca-personal/",
+                "career": "Creación de Startups",
+                "diploma_link": "/@omarbastos/curso/1220-marca-personal/diploma/detalle/"
+            },
+            {
+                "id": 1689,
+                "title": "Curso de Node.js",
+                "badge": "https://static.platzi.com/media/achievements/badge-node-js-54cb43fe-527e-4315-9472-81021bac36a7.png",
+                "url": "/clases/backend-js/",
+                "career": "Backend con JavaScript",
+                "diploma_link": "/@omarbastos/curso/1689-backend-js/diploma/detalle/"
+            },
+            {
+                "id": 1396,
+                "title": "Curso de Ortografía Básica",
+                "badge": "https://static.platzi.com/media/achievements/1396-e6d37f15-de5c-48b1-af5d-7bc7b75650ab.png",
+                "url": "/clases/ortografia-basica/",
+                "career": "Periodismo Digital",
+                "diploma_link": "/@omarbastos/curso/1396-ortografia-basica/diploma/detalle/"
+            },
+            {
+                "id": 1467,
+                "title": "Curso de PHP con Laravel",
+                "badge": "https://static.platzi.com/media/achievements/badge-laravel-ed7723f2-1ec9-4e5b-b4b5-ba70548083a5.png",
+                "url": "/clases/curso-php-laravel/",
+                "career": "Desarrollo Backend con PHP",
+                "diploma_link": "/@omarbastos/curso/1467-curso-php-laravel/diploma/detalle/"
+            },
+            {
+                "id": 1104,
+                "title": "Curso de Python",
+                "badge": "https://static.platzi.com/media/achievements/badges-2018-python-c69323eb-6496-482e-aa2a-44d22f6617e3.png",
+                "url": "/clases/python/",
+                "career": "Desarrollo Backend con Python y Django",
+                "diploma_link": "/@omarbastos/curso/1104-python/diploma/detalle/"
+            },
+            {
+                "id": 1950,
+                "title": "Curso de Testing con Vue.js",
+                "badge": "https://static.platzi.com/media/achievements/badge-testing-vuejs-d23368ed-641e-43f4-afce-32e86e05211e.png",
+                "url": "/clases/testing-vuejs/",
+                "career": null,
+                "diploma_link": "/@omarbastos/curso/1950-testing-vuejs/diploma/detalle/"
+            },
+            {
+                "id": 1620,
+                "title": "Curso de Webpack",
+                "badge": "https://static.platzi.com/media/achievements/badge-webpack-e9f63293-1e52-4bd1-90b7-82740c8131a9.png",
+                "url": "/clases/webpack/",
+                "career": "Frontend con React.JS",
+                "diploma_link": "/@omarbastos/curso/1620-webpack/diploma/detalle/"
+            },
+            {
+                "id": 1514,
+                "title": "Curso para Trabajar como Freelance",
+                "badge": "https://static.platzi.com/media/achievements/badge-trabajar-freelance-d5582227-e20b-4467-aafe-028934ea06a9.png",
+                "url": "/clases/trabajar-freelance/",
+                "career": "Crecimiento Profesional",
+                "diploma_link": "/@omarbastos/curso/1514-trabajar-freelance/diploma/detalle/"
+            },
+            {
+                "id": 1557,
+                "title": "Curso Profesional de Git y GitHub",
+                "badge": "https://static.platzi.com/media/achievements/badge-github-0b729570-934d-47d8-ba6b-610d7f15e0ec.png",
+                "url": "/clases/git-github/",
+                "career": "JavaScript",
+                "diploma_link": "/@omarbastos/curso/1557-git-github/diploma/detalle/"
+            },
+            {
+                "id": 1145,
+                "title": "Curso Profesional de Vue.js",
+                "badge": "https://static.platzi.com/media/achievements/badge-vue-js-profesional-943bb345-d1ac-4573-8805-7891cf2276e7.png",
+                "url": "/clases/vuejs-profesional/",
+                "career": "Desarrollo con JavaScript",
+                "diploma_link": "/@omarbastos/curso/1145-vuejs-profesional/diploma/detalle/"
+            },
+            {
+                "id": 1339,
+                "title": "Fundamentos de JavaScript",
+                "badge": "https://static.platzi.com/media/achievements/badge-fundamentos-javascript-61c15bdf-0a83-4aed-8537-b4753e4071e1.png",
+                "url": "/clases/fundamentos-javascript/",
+                "career": "JavaScript",
+                "diploma_link": "/@omarbastos/curso/1339-fundamentos-javascript/diploma/detalle/"
+            }
+        ],
+        "description": "",
+        "flag": "https://static.platzi.com/media/flags/CO.png",
+        "inactive_courses": [],
+        "name": "Omar Jesus Hernández Bastos",
+        "platzi_rank": "6.457",
+        "profile_url": "https://platzi.com/@omarbastos/",
+        "socials": [
+            {
+                "type": "twitter",
+                "id": "61909350"
+            }
+        ],
+        "username": "omarbastos",
+        "website": "",
+        "last_update": "2020-10-10T20:34:01.831Z"
+    }
+}
